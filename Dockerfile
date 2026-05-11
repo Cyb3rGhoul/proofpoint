@@ -8,7 +8,7 @@ ENV PROOFPRINT_MODEL=gemma4:e2b
 WORKDIR /app
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends curl ca-certificates \
+    && apt-get install -y --no-install-recommends curl ca-certificates zstd \
     && rm -rf /var/lib/apt/lists/*
 
 RUN curl -fsSL https://ollama.com/install.sh | sh
