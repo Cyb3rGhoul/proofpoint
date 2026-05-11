@@ -35,12 +35,18 @@
 
 ## Live demo checklist
 
-Use one of these free options:
+Recommended free option:
 
-- Streamlit Community Cloud
-- Hugging Face Spaces with Streamlit
+- Hugging Face Spaces with Docker
 
-For public demo reliability, deploy with the sample synthetic case. If the free host cannot run Ollama/Gemma locally, clearly label the hosted page as a UI demo and include the local Gemma video proof. The strongest submission should still show local Gemma running in the video.
+Use these settings:
+
+- SDK: Docker
+- Hardware: CPU Basic
+- Port: 7860
+- Repository contents: this `proofprint` project
+
+The Space may take several minutes to start because it pulls `gemma4:e2b`. If the free CPU tier is too slow during judging, keep the local Gemma run visible in the video and describe the hosted demo constraints clearly.
 
 ## Video checklist
 

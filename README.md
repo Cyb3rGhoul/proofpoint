@@ -53,12 +53,24 @@ Then run the app and set the model name in the sidebar to `gemma4:e2b`.
 
 Recommended free demo options:
 
-- Streamlit Community Cloud for a public interactive app
-- Hugging Face Spaces with Streamlit
+- Hugging Face Spaces with Docker for the real local Ollama/Gemma path
+- Streamlit Community Cloud only for a UI preview, because it does not run an Ollama sidecar
 - GitHub repository for source code
 - YouTube for the 3-minute video
 
 For public deployment, use synthetic/anonymized sample evidence only.
+
+## Hugging Face Spaces deployment
+
+Create a new Hugging Face Space with these settings:
+
+- SDK: Docker
+- Hardware: CPU Basic
+- App port: 7860
+
+Upload or sync this repository. The Docker container installs Ollama, pulls `gemma4:e2b`, starts Ollama, and launches Streamlit.
+
+First startup can take several minutes because the Gemma model is downloaded inside the Space.
 
 ## Hackathon tracks
 
