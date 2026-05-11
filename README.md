@@ -1,3 +1,14 @@
+---
+title: ProofPrint
+emoji: 📄
+colorFrom: teal
+colorTo: blue
+sdk: docker
+app_port: 7860
+pinned: false
+license: mit
+---
+
 # ProofPrint
 
 ProofPrint is a local-first evidence packet builder for informal workers and advocates. It turns scattered chats, payment notes, shift logs, voice transcripts, and receipts into a structured timeline, evidence index, missing-proof checklist, risk flags, and advocate-ready complaint draft.
