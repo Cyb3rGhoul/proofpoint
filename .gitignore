@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.streamlit/
+data/proofprint.sqlite
+exports/*
+!exports/.gitkeep

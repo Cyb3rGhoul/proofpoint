@@ -1,0 +1,46 @@
+{
+  "worker_name": "Ravi Kumar",
+  "case_type": "Unpaid wages",
+  "evidence": [
+    {
+      "id": "E001",
+      "title": "Hiring chat with promised daily wage",
+      "source_type": "chat",
+      "filename": "hiring_chat.txt",
+      "created_on": "2026-05-11",
+      "raw_text": "March 2, 2026. Supervisor Amit: Come from tomorrow for delivery sorting work. Salary will be Rs 850 per day plus overtime after 9 hours. Ravi: I can join from March 3. Supervisor Amit: Yes, keep screenshots of your shifts if app does not show attendance."
+    },
+    {
+      "id": "E002",
+      "title": "Shift log copied from notebook",
+      "source_type": "shift log",
+      "filename": "shift_log.txt",
+      "created_on": "2026-05-11",
+      "raw_text": "Ravi Kumar shift notes: March 3, 2026 worked 10 hours. March 4, 2026 worked 11 hours. March 5, 2026 worked 10 hours. March 6, 2026 worked 9 hours. March 7, 2026 worked 12 hours. No weekly payment received. Expected base amount is Rs 4,250 plus overtime."
+    },
+    {
+      "id": "E003",
+      "title": "Payment screenshot transcript",
+      "source_type": "payment",
+      "filename": "upi_screenshot_text.txt",
+      "created_on": "2026-05-11",
+      "raw_text": "UPI transaction from QuickKart Logistics to Ravi Kumar on March 10, 2026: Rs 1,500 received. Note: partial settlement. Ravi phone number visible: +91 98765 43210."
+    },
+    {
+      "id": "E004",
+      "title": "Employer follow-up message",
+      "source_type": "chat",
+      "filename": "followup_chat.txt",
+      "created_on": "2026-05-11",
+      "raw_text": "March 12, 2026. Ravi: Sir, I worked five days and got only Rs 1,500. Balance salary and overtime are pending. Supervisor Amit: Accounts will pay tomorrow. Do not complain in the group. March 15, 2026. Ravi: Still no payment. Supervisor Amit: If you keep asking, do not come for next shifts."
+    },
+    {
+      "id": "E005",
+      "title": "Voice note transcript to worker group",
+      "source_type": "voice transcript",
+      "filename": "voice_note_transcript.txt",
+      "created_on": "2026-05-11",
+      "raw_text": "Ravi voice note on March 16, 2026: I need help. I worked at QuickKart Logistics from March 3 to March 7. They promised Rs 850 per day and overtime. I only received Rs 1,500. I am missing at least Rs 2,750 plus overtime. I have chat screenshots and the UPI screenshot."
+    }
+  ]
+}
